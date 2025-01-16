@@ -1,0 +1,60 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Lato", "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+a {
+  color: #102abb;
+  text-decoration: none;
+}
+
+a:hover { 
+    color: #5689e7;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.default {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+td {
+	padding: 10px;
+}
